@@ -25,14 +25,18 @@
 
 .headerlink {
   display: inline;
-  color: #f9faf8;
+  color: #e5e7ebff;
   font-size: 18px;
 }
 .topcont {
   display: block;
 }
+.underheadercont {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 100px;
+}
 .leftcont {
-  border: red solid 5px;
   width: 400px;
   margin-left: 200px;
 }
@@ -44,22 +48,107 @@
   width: 300px;
 }
 .underleft {
-  width: 370px;
+  width: 400px;
   margin-bottom: 10px;
+  font-size: 18px;
+  color: #e5e7eb;
 }
 
 .right {
   display: inline;
-  border: red solid 10px;
+
+  width: 600px;
+  height: 300px;
 }
 .rightcont {
   text-align: right;
+  margin-right: 100px;
 }
 
 .btnleft {
   background-color: #3882f6;
-  box-shadow: none;
-  text-shadow: none;
-  padding-left: 10px;
-  padding-right: 10px;
+  border: none;
+  padding-left: 15px;
+  padding-right: 20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-radius: 6px;
+  color: white;
+}
+
+.midcont {
+  text-align: center;
+}
+.h2 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.underh2cont {
+  display: flex;
+  justify-content: center;
+
+  margin-bottom: 200px;
+  gap: 30px;
+}
+
+.subtext {
+  justify-content: space-between;
+  color: #4b5563ff;
+
+  width: 100px;
+}
+.botcont {
+  background-color: #e5e7ebff;
+  padding-bottom: 100px;
+  padding-top: 100px;
+  margin-bottom: 100px;
+}
+
+.bottomtext {
+  color: #1f2937ff;
+  text-align: left;
+  font-size: 24px;
+
+  width: 760px;
+  margin-left: 300px;
+}
+.quote {
+  margin-left: 900px;
+}
+
+.endcont {
+  border: 1px solid #3b82f6ff;
+  background-color: #3b82f6ff;
+  width: 900px;
+  margin-left: 240px;
+  margin-bottom: 80px;
+  display: flex;
+  justify-content: center;
+  border-radius: 10px;
+}
+
+.endtxt1 {
+  color: #f9faf8;
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+.endtextcont {
+  padding-top: 30px;
+  width: 400px;
+}
+
+.endbtn {
+  border-radius: 6px;
+  background-color: #3882f6;
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-radius: 6px;
+  margin-left: 200px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  border: white 2px solid;
 }
