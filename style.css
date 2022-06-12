@@ -88,14 +88,19 @@
   justify-content: center;
 
   margin-bottom: 200px;
-  gap: 30px;
+  gap: 100px;
 }
 
 .subtext {
   justify-content: space-between;
   color: #4b5563ff;
-
-  width: 100px;
+  width: 120px;
+}
+.cat4 {
+  width: 120px;
+  height: 106px;
+  border: 2px solid blue;
+  border-radius: 5px;
 }
 .botcont {
   background-color: #e5e7ebff;
